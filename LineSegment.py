@@ -21,7 +21,7 @@ class Point:
 
     def distance_to(self, target):
         """Returns the distance between two points."""
-        return abs(((target.get_x_coord() - self.get_x_coord())**2 + (target.get_x_coord() - self.get_y_coord())**2)**0.5)
+        return abs((((target.get_x_coord() - self.get_x_coord())**2) + ((target.get_y_coord() - self.get_y_coord())**2))**0.5)
 
 
 
